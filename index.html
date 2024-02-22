@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio web SamuDev">
+    <title>Portfolio Web SamuDev</title> 
+
+    <link rel="icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#Sobremi" class="logo">@SamuDev</a>
+
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <img class="toggle-nav-menu" src="img/menu.svg" alt="bar-menu"></img>
+            </button>
+            <ul class="nav-menu nav-menu_visible">
+            <!-- Emmet abreviation: li.nav-menu-item*4>a.nav-menu-link -->
+                <li class="nav-menu-item">
+                    <a href="#Inicio" class="nav-menu-link nav-link">Inicio</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#Stack" class="nav-menu-link nav-link">Stack</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#Proyectos" class="nav-menu-link nav-link">Proyectos</a>
+                </li>
+                </ul>
+                </nav>
+    </header>
+
+    <div class="contenedor">
+
+    <section id="Inicio">
+        <div class="inicio">        
+            <div class="cuadroperfil">
+                <img class="foto-perfil" src="img/Inicio/Perfil.svg" alt="fotodeperfil">
+                </div>
+            <div class="texto_inicio">
+                <h3>Hey! Soy <span id="name">Samuel</span></h3>
+                <h3 id="rol" onmouseover="mOver(this)" onmouseout="mOut(this)">Desarrollador Web</h3>
+                <p> Estudio de forma autodidacta desde hace más de un año.</p>
+                    <div class="contact">
+                        <a target="_blank" href="https://github.com/ImSamuDev01"> <img class="contact-img" src="img/Inicio/Contacto/icons8-github-100.svg" alt="github"></a>
+                        <a target="_blank" href="mailto:samudev01@gmail.com"> <img class="contact-img" src="img/Inicio/Contacto/icons8-gmail-128.svg" alt="gmail"></a>
+                    </div>
+                </div>
+                  
+        </div>
+    </section>
+    
+    <section id="Stack">
+        <div class="stack">
+            <h2 class="title_section"> Stack Tecnológico </h2>
+        <div class="stack_divider">
+            <span class="stackarea"> Frontend </span>
+            <div class="front">
+            <img class="stackimg" src="/img/Stack/icons8-html-144.svg" alt="html_logo"> 
+            <img class="stackimg" src="img/Stack/icons8-css-96.svg" alt="css_logo">
+            <img class="stackimg" src="img/Stack/icons8-bootstrap-96.svg" alt="bootstrap_logo">
+            <img class="stackimg" src="img/Stack/icons8-javascript-96.svg" alt="js_logo">
+            <img class="stackimg" src="img/Stack/icons8-react-80.svg" alt="react_logo">
+            <img class="stackimg" src="img/Stack/icons8-vite-96.svg" alt="vite_logo">
+        </div>
+            <div class="back">
+            <img class="stackimg" src="img/Stack/icons8-python-96.svg" alt="python_logo">
+            <img class="stackimg" src="img/Stack/icons8-pandas-96.svg" alt="pandas_logo">
+        </div>
+        <span class="stackarea"> Backend </span>
+    </div>
+        </div>
+    </section>
+    
+    <section id="Proyectos">
+        <div class="proyectos">
+            <h2 class="title_section">Proyectos</h2>
+            <div class="cards">
+                <h2 id="titulo_seccion_en_desarrollo"> Sección en desarrollo... </h2>
+            </div>
+        </div>
+    </section>
+    
+    <section id="Sobremi">
+       <div class="sobre_mi">
+        <div class="texto">
+        <h2 class="title_section"> Sobre mí </h2>
+        <p> Resido en Mendoza, Argentina. Desde niño me ha fascinado el mundo tecnológico, por ciertas circunstancias personales me dediqué a otras áreas hasta los 25 años, donde quise retomar mi sueño, desde entonces me he dedicado sin cese, y empecé por acá... ¡El maravilloso mundo de la Programación! <br>
+            <br>
+            Inicié con Desarrollo Web, mayormente estudié de forma autodidacta, también he realizado otros cursos aparte. Actualmente me considero un trainee, en busca de nuevas oportunidades.
+        </p>
+        <p>Nivel de inglés <b>B2</b> </p>
+    </div>
+       </div>
+    </section>
+   
+    
+</div>
+
+</body>
+<footer>
+    <!-- NAVBAR CREADO POR YOELVIS MULEN Y MODIFICADO POR SAMUDEV: https://www.youtube.com/watch?v=xQstBIPeOdU-->
+    <!-- iconos utilizados de https://icons8.com  -->
+</footer>
+</html>
