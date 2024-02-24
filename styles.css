@@ -143,11 +143,6 @@ section {
   align-items: center;
 }
 
-#name {
-  color: rgb(160, 100, 255);
-  text-shadow: 0.125rem 0.125rem 0.125rem rgb(48, 18, 92);
-}
-
 #rol {
   font-size: 2rem;
   font-weight: 600;
