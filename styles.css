@@ -135,8 +135,12 @@ section {
 }
 
 .texto_inicio {
-  padding: 0.3125rem;
   font-size: 1.5rem;
+  height: 18.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #name {
@@ -149,10 +153,6 @@ section {
   font-weight: 600;
   color: rgb(160, 100, 255);
   text-shadow: 0.125rem 0.125rem 0.125rem rgb(48, 18, 92);
-}
-
-.contact {
-  padding: 2rem 0.5rem;
 }
 
 .contact-img {
@@ -318,6 +318,10 @@ section {
   justify-content: center;
 }
 
+.projectimg {
+  height: 18.75rem;
+}
+
 #titulo_seccion_en_desarrollo {
   font-size: 1.5rem;
   color: white;
@@ -462,6 +466,10 @@ section {
   #titulo_seccion_en_desarrollo {
     font-size: 1rem;
   }
+
+  .projectimg {
+    height: 12.5rem;
+  }
 }
 
 @media (max-width: 360px) {
@@ -478,5 +486,9 @@ section {
 
   .texto {
     font-size: 0.75rem;
+  }
+
+  .projectimg {
+    height: 9.375rem;
   }
 }
